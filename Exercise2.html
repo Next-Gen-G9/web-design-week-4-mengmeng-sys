@@ -7,6 +7,8 @@
   <style>
     .container {
       /* TODO: Use flexbox row layout */
+      display: flex;
+      flex-direction: row;
       gap: 1rem;
       padding: 1rem;
     }
@@ -24,6 +26,7 @@
     @media (max-width: 600px) {
       .container {
         /* TODO: stack vertically on small screens */
+        flex-direction: column;
       }
     }
   </style>
@@ -31,17 +34,17 @@
 <body>
   <div class="container">
     <div class="card">
-      <img src="https://via.placeholder.com/300" alt="">
+      <img src="/img/royal_palace" alt="angkor" >
       <h3>Card 1</h3>
       <button>Click</button>
     </div>
     <div class="card">
-      <img src="https://via.placeholder.com/300" alt="">
+      <img src="/img/siem_reap.jpg" alt="jj">
       <h3>Card 2</h3>
       <button>Click</button>
     </div>
     <div class="card">
-      <img src="https://via.placeholder.com/300" alt="">
+      <img src="/img/OIP.webp" alt="jj">
       <h3>Card 3</h3>
       <button>Click</button>
     </div>

@@ -7,6 +7,8 @@
   <style>
     .gallery {
       /* TODO: make 3-column grid */
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
       gap: 10px;
     }
     .gallery img {
@@ -17,6 +19,8 @@
     @media (max-width: 600px) {
       .gallery {
         /* TODO: change to 2-column grid */
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
         
       }
     }
@@ -25,11 +29,11 @@
 <body>
   <div class="gallery">
     <img src="./img/siem_reap.jpg" alt="1">
-    <img src="https://via.placeholder.com/300" alt="">
-    <img src="https://via.placeholder.com/300" alt="">
-    <img src="https://via.placeholder.com/300" alt="">
-    <img src="https://via.placeholder.com/300" alt="">
-    <img src="https://via.placeholder.com/300" alt="">
+    <img src="./img/siem_reap.jpg" alt="">
+    <img src="./img/siem_reap.jpg" alt="">
+    <img src="./img/siem_reap.jpg" alt="">
+    <img src="./img/siem_reap.jpg" alt="">
+    <img src="./img/siem_reap.jpg" alt="">
   </div>
 </body>
 </html>
